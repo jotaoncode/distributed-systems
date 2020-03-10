@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
   res.send('Hello world');
 });
 
-app.listen(3000, () => {
+app.listen(3000, '0.0.0.0', () => {
   console.log('Running in port 3000');
 });

@@ -1,0 +1,11 @@
+apiVersion: skaffold/v2alpha4
+kind: Config
+metadata:
+  name: skaffold-express-example
+build:
+  artifacts:
+  - image: example
+deploy:
+  kubectl:
+    manifests:
+    - deployment.yaml
