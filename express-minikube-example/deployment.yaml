@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: example
-        image: example
+        image: express-example
         imagePullPolicy: Never
         ports:
         - containerPort: 3000

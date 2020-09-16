@@ -5,7 +5,10 @@ metadata:
 build:
   artifacts:
   - image: example
+    docker:
+      network: bridge
 deploy:
   kubectl:
     manifests:
     - deployment.yaml
+    - service.yaml

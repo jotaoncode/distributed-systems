@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: defaultconfig
+data:
+  log: "info"
+  something: "something"
